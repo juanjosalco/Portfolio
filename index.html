@@ -4,19 +4,218 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Juan Salazar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <!-- Navigation Menu -->
-        <nav class="navbar">
-            <ul>
-                <li>Contact</li>
-                <li>Projects</li>
-                <li>Education</li>
+        <div class="navbar">
+            <div class="logo">
+                <a href=""><img src="img/logo.png" alt=""></a>
+            </div>
+            <ul class="menu">
+                <a href="">About me</a>
+                <a href="">Education</a>
+                <a href="">Projects</a>
+                <a href="">Contact</a>
             </ul>
-        </nav>
+        </div>
     </header>
+    <main>
+        <section class="intro">
+            <div class="profilePic">
+                <img src="" alt="">
+            </div>
+            <div class="nameAndText">
+                <h1>JUAN JOSE SALAZAR CORTES</h1>
+                <p>BACHELOR STUDENT IN COMPUTER SCIENCE AND TECHNOLOGY AT TECNOLOGICO DE MONTERREY</p>
+            </div>
+        </section>
+        <section class="aboutMe">
+            <h2>ABOUT ME</h2>
+            <div class="text">
+                <p>
+                    My name is Juan José Salazar Cortés, I am currently attending to the third semester of my Bachelor
+                    Degree at University “Tecnológico de Monterrey” in Guadalajara, Jalisco, México. I began programming 
+                    since I was 16 years old and I love it. 
+                </p>
+                <p>
+                    Right now I am trying to find the opportunity to show and improve my skills to become one of the top 
+                    programmers that can change the world.
+                </p>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
+                        Professional Skills
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>C++ (Advanced)</li>
+                            <li>Python (Proficient)</li>
+                            <li>MatLab (Proficient)</li>
+                            <li>JavaScript (Proficient)</li>
+                            <li>C# (Prior Experience)</li>
+                            <li>PHP (Prior Experience)</li>
+                            <li>R (Prior Experience)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
+                        Languages
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Spanish (Native)</li>
+                            <li>English (B2 Proficient)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
+                        Skills
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Fast Learner</li>
+                            <li>Teamworker</li>
+                            <li>Leadership</li>
+                            <li>Adaptability</li>
+                            <li>Critical Thinking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="education">
+            <h2>EDUCATION</h2>
+            <div class="tarjetas">
+                <div class="tarjeta">
+                    <img src="" alt="">
+                    <h3>Tecnológico de Monterrey</h3>
+                    <h4>B.S. in Computer Science and Technology</h4>
+                    <p>Aug 2021 - Jul 2025</p>
+                    <ul>
+                        <li>Attending to Third Semester</li>
+                        <li>Percent Grade: 97.11 / 100 = GPA 4.0</li>
+                        <li>Community Leader</li>
+                        <li>Algorithmic Club Member</li>
+                    </ul>
+                </div>
+                <div class="tarjeta">
+                    <img src="" alt="">
+                    <h3>CBTIS 49 "José Santana"</h3>
+                    <h4>Programming Technician</h4>
+                    <p>Aug 2018 - Jul 2021</p>
+                    <ul>
+                        <li>Final Percent Grade: 97.11 / 100 = GPA 4.0</li>
+                        <li>Selected to Compete in Math and Physics Representing the School</li>
+                        <li>Captain of The Soccer Team at School</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="projects">
+            <div class="project">
+                <h3>Simulation of Electromagnetic Fields that Detect Malaria</h3>
+                <img src="" alt="">
+                <a href="">GitHub</a>
+            </div>
+            <div class="project">
+                <h3>SARS-CoV-2 Deep Analysis Script</h3>
+                <img src="" alt="">
+                <a href="">GitHub</a>
+            </div>
+            <div class="project">
+                <h3>Smart Thermos</h3>
+                <img src="" alt="">
+                <a href="">GitHub</a>
+            </div>
+            <div class="project">
+                <h3>Jeopardy Game</h3>
+                <img src="" alt="">
+                <a href="">GitHub</a>
+            </div>
+            <div class="project">
+                <h3>Webpage for a Soccer Team</h3>
+                <img src="" alt="">
+                <a href="">GitHub</a>
+            </div>
+            <div class="project">
+                <h3>Scape Room Videogame</h3>
+                <img src="" alt="">
+                <a href="">GitHub</a>
+            </div>
+        </section>
+        <section class="courses">
+            <h2>COURSES</h2>
+            <div class="cursos">
+                <div class="curso">
+                    <img src="" alt="">
+                    <h3>Web Development</h3>
+                    <h4>Platform: Udemy</h4>
+                </div>
+                <div class="curso">
+                    <img src="" alt="">
+                    <h3>UX / UI Design</h3>
+                    <h4>Platform: Platzi</h4>
+                </div>
+                <div class="curso">
+                    <img src="" alt="">
+                    <h3>JavaScript</h3>
+                    <h4>Platform: BEDU</h4>
+                </div>
+                <div class="curso">
+                    <img src="" alt="">
+                    <h3>Google Cloud</h3>
+                    <h4>Platform: Google</h4>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <h2>CONTACT</h2>
+            <form action="">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+                <input type="text" placeholder="Message">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="">
+                <img src="" alt="">
+            </a>
+            <a href="">
+                <img src="" alt="">
+            </a>
+            <a href="">
+                <img src="" alt="">
+            </a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
 </html>
