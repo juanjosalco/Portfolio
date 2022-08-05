@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Helvetica';
 }
-
+/* -------- Header -------- */
 header{
     background: #192D70;
+    font-size: 1.1rem;
 }
 .navbar{
     width: 80%;
@@ -21,13 +23,132 @@ header{
 }
 .menu a{
     display: inline-block;
-    padding: 20px 25px;
+    padding: 25px 25px;
     color: #fff;
     text-decoration: none;
 }
-.menu a:hover{
-    background: #213D9F;
+
+/* ------- Main --------- */
+main{
+    width: 80%;
+    margin: auto;
 }
+.intro{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
+.profilePic{
+    width: 40%;
+}
+.nameAndText{
+    width: 50%;
+    margin: auto 0;
+}
+.nameAndText h1{
+    width: 90%;
+    margin: auto;
+    color: #192D70;
+    font-size: 3.5rem;
+}
+.nameAndText > p{
+    margin: auto;
+    margin-top: 3rem;
+    width: 90%;
+    line-height: 1.5;
+    color: #707070;
+    font-size: 1.5rem;
+}
+/* -------- About Me -------- */
+.aboutMe{
+    margin-top: 9rem;
+}
+.text{
+    width: 85%;
+    margin: auto;
+    margin-top: 3rem;
+    font-size: 1.3rem;
+}
+.row{
+    margin: 3rem 0;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 1.1rem;
+}
+.col{
+    padding: 0 2rem;
+}
+.accordion-item{
+    font-size: 1.1rem;
+    width: 100%;
+}
+/* -------- Education -------- */
+.education{
+    margin-top: 4rem;
+    background: #F7F7F7;
+}
+.contenedor{
+    width: 80%;
+    margin: auto;
+}
+.contenedor h2{
+    padding-top: 3rem;
+}
+.tarjetas{
+    display: flex;
+    justify-content: space-between;
+}
+.tarjeta{
+    width: 47%;
+    margin-top: 2.5rem;
+    margin-bottom: 4rem;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #fff;
+    padding-bottom: 1rem;
+    transition: width 1s;
+    -webkit-box-shadow: 1px 9px 55px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 9px 55px -15px rgba(0,0,0,0.75);
+    box-shadow: 1px 9px 55px -15px rgba(0,0,0,0.75);
+}
+.tarjeta img{
+    border-radius: 10px 10px 0 0;
+}
+.tarjeta li{
+    list-style: none;
+    margin: .5rem 1.9rem 0;
+    font-size: 1.2rem;
+}
+/* -------- Generalidades --------*/
 img{
     width: 100%;
 }
+h2{
+    color: #192D70;
+    font-size: 2.5rem;
+}
+h3{
+    margin: 1.3rem 2rem  0;
+}
+h4{
+    margin: .5rem 2.1rem 0;
+    font-size: 1.3rem;
+}
+p{
+    margin: .5rem 4rem 0;
+    font-size: 1.2rem;
+}
+
+/* -------- Hovers --------- */
+.menu a:hover{
+    background: #213D9F;
+}
+.education li::before{
+    content: " - ";
+}
+.tarjeta:hover{
+    width: 47.5%;
+}
+/* -------- Animaciones ------- */
+
+  

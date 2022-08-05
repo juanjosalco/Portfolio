@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header class="sticky-top">
         <div class="navbar">
             <div class="logo">
-                <a href=""><img src="img/logo.png" alt=""></a>
+                <a href="#"><img src="img/logo.png" alt=""></a>
             </div>
             <ul class="menu">
                 <a href="">About me</a>
@@ -26,7 +26,7 @@
     <main>
         <section class="intro">
             <div class="profilePic">
-                <img src="" alt="">
+                <img src="img/fotoDePerfil.png" alt="">
             </div>
             <div class="nameAndText">
                 <h1>JUAN JOSE SALAZAR CORTES</h1>
@@ -46,95 +46,107 @@
                     programmers that can change the world.
                 </p>
             </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
-                        Professional Skills
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                  data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <ul>
-                            <li>C++ (Advanced)</li>
-                            <li>Python (Proficient)</li>
-                            <li>MatLab (Proficient)</li>
-                            <li>JavaScript (Proficient)</li>
-                            <li>C# (Prior Experience)</li>
-                            <li>PHP (Prior Experience)</li>
-                            <li>R (Prior Experience)</li>
-                        </ul>
+            <div class="row">
+                <div class="col">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Professional Skills
+                        </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>C++ (Advanced)</li>
+                                    <li>Python (Proficient)</li>
+                                    <li>MatLab (Proficient)</li>
+                                    <li>JavaScript (Proficient)</li>
+                                    <li>C# (Prior Experience)</li>
+                                    <li>PHP (Prior Experience)</li>
+                                    <li>R (Prior Experience)</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
-                        Languages
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                  data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <ul>
-                            <li>Spanish (Native)</li>
-                            <li>English (B2 Proficient)</li>
-                        </ul>
+                <div class="col">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+                                Languages
+                        </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Spanish (Native)</li>
+                                    <li>English (B2 Proficient)</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
-                        Skills
-                  </button>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                  data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <ul>
-                            <li>Fast Learner</li>
-                            <li>Teamworker</li>
-                            <li>Leadership</li>
-                            <li>Adaptability</li>
-                            <li>Critical Thinking</li>
-                        </ul>
+                <div class="col">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
+                                Skills
+                        </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Fast Learner</li>
+                                    <li>Teamworker</li>
+                                    <li>Leadership</li>
+                                    <li>Adaptability</li>
+                                    <li>Critical Thinking</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+    </main>
         <section class="education">
-            <h2>EDUCATION</h2>
-            <div class="tarjetas">
-                <div class="tarjeta">
-                    <img src="" alt="">
-                    <h3>Tecnológico de Monterrey</h3>
-                    <h4>B.S. in Computer Science and Technology</h4>
-                    <p>Aug 2021 - Jul 2025</p>
-                    <ul>
-                        <li>Attending to Third Semester</li>
-                        <li>Percent Grade: 97.11 / 100 = GPA 4.0</li>
-                        <li>Community Leader</li>
-                        <li>Algorithmic Club Member</li>
-                    </ul>
-                </div>
-                <div class="tarjeta">
-                    <img src="" alt="">
-                    <h3>CBTIS 49 "José Santana"</h3>
-                    <h4>Programming Technician</h4>
-                    <p>Aug 2018 - Jul 2021</p>
-                    <ul>
-                        <li>Final Percent Grade: 97.11 / 100 = GPA 4.0</li>
-                        <li>Selected to Compete in Math and Physics Representing the School</li>
-                        <li>Captain of The Soccer Team at School</li>
-                    </ul>
+            <div class="contenedor">
+                <h2>EDUCATION</h2>
+                <div class="tarjetas">
+                    <div class="tarjeta">
+                        <img src="img/imgTec.png" alt="">
+                        <h3>Tecnológico de Monterrey</h3>
+                        <h4>B.S. in Computer Science and Technology</h4>
+                        <p>Aug 2021 - Jul 2025</p>
+                        <ul>
+                            <li>Attending to Third Semester</li>
+                            <li>Percent Grade: 97.11 / 100 = GPA 4.0</li>
+                            <li>Community Leader</li>
+                            <li>Algorithmic Club Member</li>
+                        </ul>
+                    </div>
+                    <div class="tarjeta">
+                        <img src="img/imgCBTIS.png" alt="">
+                        <h3>CBTIS 49 "José Santana"</h3>
+                        <h4>Programming Technician</h4>
+                        <p>Aug 2018 - Jul 2021</p>
+                        <ul>
+                            <li>Final Percent Grade: 97.11 / 100 = GPA 4.0</li>
+                            <li>Selected to Compete in Math and Physics Representing the School</li>
+                            <li>Captain of The Soccer Team at School</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="projects">
+            <h2>PROJECTS</h2>
             <div class="project">
                 <h3>Simulation of Electromagnetic Fields that Detect Malaria</h3>
                 <img src="" alt="">
@@ -200,7 +212,6 @@
                 <button type="submit">Submit</button>
             </form>
         </section>
-    </main>
     <footer>
         <div class="social">
             <a href="">
