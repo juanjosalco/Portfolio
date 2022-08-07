@@ -215,15 +215,18 @@ main{
     justify-content: center;
 }
 .entrada{
+    display: block;
+    width: 40%;
     margin: .8rem;
-    padding: .5rem 8rem .5rem 2rem;
+    padding: .5rem 1rem;
     border-radius: 5px;
     border: #bababa solid;
 }
 #msg{
     display: block;
+    width: 82%;
     margin: .8rem auto;
-    padding: 1rem 33.2rem 5rem 2rem;
+    padding: .5rem 0 0 1rem;
     border-radius: 5px;
     border: #bababa solid;
 }
