@@ -350,5 +350,11 @@ p{
 .socialContainer a:hover{
     width: 16%;
 }
-/* -------- Animaciones ------- */
+/* -------- Media Queries ------- */
+
+@media( max-width: 1200px) {
+    :root{
+        font-size: 13.5px;
+    }
+}
   
