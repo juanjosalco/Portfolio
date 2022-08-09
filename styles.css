@@ -481,7 +481,10 @@ p{
     }
     .nameAndText h1{
         width: 100%;
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+    .nameAndText > p{
+        width: 100%;
     }
     .projects{
         grid-template-columns: repeat(1,.9fr);
