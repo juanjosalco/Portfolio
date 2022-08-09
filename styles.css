@@ -477,7 +477,11 @@ p{
         font-size: 11.5px;
     }
     .profilePic{
-        width: 80%;
+        width: 90%;
+    }
+    .nameAndText h1{
+        width: 100%;
+        font-size: 2.5rem;
     }
     .projects{
         grid-template-columns: repeat(1,.9fr);
