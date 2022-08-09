@@ -268,6 +268,28 @@ p{
     position: relative;
     overflow: hidden;
 }
+/* --------- Social ----------*/
+
+.social{
+    background-color: #192D70;
+    margin-top: 8rem;
+}
+.socialContainer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.socialContainer a{
+    display: block;
+    width: 15%;
+    margin: 2rem 1rem;
+    transition: width .5s;
+}
+.socialContainer img{
+    border-radius: 10px;
+}
 /* -------- Hovers --------- */
 .menu a:hover{
     background: #213D9F;
@@ -301,7 +323,7 @@ p{
     left: 0;
     background-color: #000;
     transform: scale(0);
-    transition: transform 1.5s;
+    transition: transform 1s;
     font-size: 1.3rem;
     color: #fff;
     padding: 1.3rem;
@@ -324,6 +346,9 @@ p{
 .contact button:hover{
     background-color: #213D9F;
 }
-/* -------- Animaciones ------- */
 
+.socialContainer a:hover{
+    width: 16%;
+}
+/* -------- Animaciones ------- */
   
