@@ -356,5 +356,8 @@ p{
     :root{
         font-size: 13.5px;
     }
+    .aboutMe{
+        margin-top: 10rem;
+    }
 }
   
