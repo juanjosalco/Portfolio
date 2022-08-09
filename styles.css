@@ -490,5 +490,8 @@ p{
     .projects{
         grid-template-columns: repeat(1,.9fr);
     }
+    .logo{
+        width: 43%;
+    }
 }
   
