@@ -23,7 +23,7 @@ header{
 }
 .menu a{
     display: inline-block;
-    padding: 25px 25px;
+    padding: 1.5rem 1.5rem;
     color: #fff;
     text-decoration: none;
 }
@@ -354,10 +354,130 @@ p{
 
 @media( max-width: 1200px) {
     :root{
-        font-size: 13.5px;
+        font-size: 13px;
     }
     .aboutMe{
         margin-top: 11rem;
+    }
+}
+@media( max-width: 1065px) {
+    :root{
+        font-size: 12px;
+    }
+    .intro{
+        margin-top: 12rem;
+    }
+    .profilePic{
+        width: 50%;
+    }
+}
+@media( max-width: 990px) {
+    .projects{
+        grid-template-columns: repeat(2,1fr);
+        gap: 3rem;
+    }
+    .tarjeta{
+        width: 80%;
+    }
+    .tarjeta:hover{
+        width: 81%;
+    }
+    :root{
+        font-size: 13px;
+    }
+    .tarjetas{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact button{
+        width: 20%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .intro{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .nameAndText{
+        margin-top: 3rem;
+        width: 70%;
+    }
+    .logo{
+        width: 20%;
+    }
+    .cursos{
+        grid-template-columns: repeat(2,.4fr);
+        justify-content: center;
+    }
+    .socialContainer a{
+        width: 25%;
+    }
+    .socialContainer a:hover{
+        width: 26%;
+    }
+    .contact button{
+        width: 40%;
+    }
+}
+@media(max-width: 660px){
+    .navbar{
+        width: 95%;
+    }
+    :root{
+        font-size: 12px;
+    }
+    .navbar .menu{
+        visibility: hidden;
+        display: none;
+    }
+    .tarjeta{
+        width: 100%;
+    }
+    .tarjeta:hover{
+        width: 101%;
+    }
+    .logo{
+        width: 30%;
+    }
+    .projects{
+        grid-template-columns: repeat(1,.7fr);
+        justify-content: center;
+    }
+    .profilePic{
+        width: 65%;
+    }
+    .imgProject::before{
+        font-size: 1.5rem;
+    }
+    .logo{
+        width: 35%;
+        padding: 1.5rem;
+    }
+    .contacto{
+        flex-direction: column;
+        align-items: center;
+    }
+    .entrada{
+        width: 100%;
+    }
+    .contact button{
+        width: 50%;
+    }
+    .cursos{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width: 500px){
+    :root{
+        font-size: 11px;
+    }
+    .profilePic{
+        width: 80%;
     }
 }
   
